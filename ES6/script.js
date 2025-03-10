@@ -193,11 +193,60 @@ console.log('Roadmap to 1 cr');
 // console.log(a.name,a.age);
 
 
-let obj = {
-    name : 'Aditya',
-    age : 25,
-    salary : 25000
-}
-let {name ,  salary , age } = obj ;
+// let obj = {
+//     name : 'Aditya',
+//     age : 25,
+//     salary : 25000
+// }
+// let {name ,  salary , age } = obj ;
 
-console.log(name, age, salary);
+// console.log(name, age, salary);
+
+
+// function say(a){
+//     console.log(a , 'Aditya');
+    
+// }
+// say('Hello')
+
+// let myname = function(){
+//     console.log('Aditya');
+    
+// }
+// myname()
+
+// let myname = () =>{
+//     console.log('Aditya');
+    
+// }
+// myname()
+
+// let myname = () => "Aditya" ;
+// console.log(myname());
+
+// function say(name, age = 25){
+//     console.log(name, age);
+    
+// }
+// say('Aditya' , 55)
+
+// let arr = [1,2,3];
+// let arr2 = [...arr, 4,5,6];
+// console.log(arr2);
+
+
+// let a = 'Aditya' ;
+// let b = [ ...a]
+// console.log(b);
+
+// const str = "Hello";
+// const arr = [...str];
+
+// console.log(arr);
+
+
+// let akd = [1,2,3,4,5,6];
+
+// let [a,b,c,d,e,f] =  akd 
+
+// console.log(a,b,c,d,e,f);
