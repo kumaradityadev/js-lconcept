@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Project</title>
+    <style>
+        body{
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+        }
+        #container , #box{
+            width: 40%;
+            border: 1px solid red;
+            padding-top: 5px;
+            margin: auto;
+        }
+        img{
+            width: 400px;
+            height: 300px;
+        }
+    </style>
+
+    <div id="container">
+        <img src="https://birdwatchinghq.com/wp-content/uploads/2022/12/common-birds-caribbean-1-scaled-e1671550548338.jpg" alt="Bird">
+        <h2>Beautiful Bird</h2>
+        <p>Birds are a group of warm-blooded vertebrates constituting the class Aves, characterised by feathers, toothless beaked jaws, the laying </p>
+    </div>
+    <hr>
+
+    <div id="box"> </div>
+        
+    
+</head>
+<body>
+    
+
+    <script>
+
+        // let box = document.getElementById("box")
+
+        // let images = document.createElement("img")
+        // let name1 = document.createElement("h2")
+        // let discription = document.createElement("p")
+        // let btn = document.createElement("button")
+
+        // images.src = " https://birdwatchinghq.com/wp-content/uploads/2022/12/common-birds-caribbean-1-scaled-e1671550548338.jpg"  ;
+        
+
+        // name1.textContent = " Beautiful Bird"
+
+        // discription.textContent = " Birds are a group of warm-blooded vertebrates constituting the class Aves, characterised by feathers, toothless beaked jaws, the laying "
+
+        // btn.textContent = "click"
+
+        // box.append(images ,name1 , discription , btn)
+
+
+       let box =  document.getElementById("box")
+
+      let images =   document.createElement("img")
+      images.src = " https://birdwatchinghq.com/wp-content/uploads/2022/12/common-birds-caribbean-1-scaled-e1671550548338.jpg"
+
+      let Birdname = document.createElement("h2")
+      Birdname.textContent = " Beautiful Birds"
+
+      let discription = document.createElement("p")
+      discription.textContent = " Birds are a group of warm-blooded vertebrates constituting the class Aves " ;
+
+      let btn = document.createElement("button");
+      btn.textContent = "Click"
+      box.append(images , Birdname , discription , btn)
+    </script>
+</body>
+</html>
