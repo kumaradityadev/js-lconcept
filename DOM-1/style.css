@@ -1,0 +1,17 @@
+body{
+    background-color: #000;
+    color: #fff;
+    /* display: flex;
+    justify-content: center; */
+}
+h1{
+    text-align: center;
+    font-size: 6rem;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    /* background: blueviolet; */
+    margin: 10px;
+    /* text-align: center; */
+}
